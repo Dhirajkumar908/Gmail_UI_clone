@@ -1,0 +1,218 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Roboto", serif;
+}
+
+.aside-1{
+    width:60px;
+    height: 100vh;
+    background-color: #E9EEF6;
+    position: fixed;
+    top:0;
+    left:0;
+    text-align: center;
+}
+
+.main{
+    height: 100vh;
+    margin-left:60px;
+    background-color: #F8FAFD;
+}
+
+.material-icons{
+    font-size:25px;
+    color: #444746;
+    cursor: pointer;
+}
+
+.menu{
+    height: 70px;
+    padding-top: 15px;
+}
+
+.submenu{
+    cursor: pointer;
+    margin-top:5px;
+    padding-top: 15px;
+}
+
+.submenu p{
+    color:rgb(54, 54, 54);
+    font-size:14px;
+}
+
+/*top header*/
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:7px 0px 5px 0px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    padding-left: 20px;
+}
+.search{
+    background-color: #E9EEF6;
+    align-items:center;
+    display: flex;
+    width: 500px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search input{
+    width: 450px;
+    background-color: transparent;
+    border: none;
+}
+
+.status{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    background-color:#E9EEF6;
+    padding:0px 10px 0px 15px;
+    border-radius: 25px;
+}
+
+.support{
+    padding: 10px;
+}
+.support span{
+    padding: 0px 15px 0px 15px;
+    cursor:pointer;
+}
+
+/*main-mail-content-area*/
+.main_mail_content_area{
+    display: flex;
+    justify-content: stretch;
+
+}
+
+.aside_nav{
+    min-width: 200px;
+   padding: 10px;
+}
+
+.compose{
+    margin-bottom: 20px;
+}
+.compose button{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    background-color: #C2E7FF;
+    color: black;
+}
+.compose button span{
+    padding-right: 10px;
+    color:black
+}
+
+.aside_nav-item button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    border:none;
+    border-radius: 20px;
+   background-color: transparent;
+}
+.aside_nav-item button span{
+    padding: 7px 10px 7px 10px;
+    font-size:20px;
+}
+
+.aside_nav-item button:hover{
+    background-color: #E9EEF6;
+}
+
+
+
+.mail_area{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+    border-radius: 20px;   
+}
+
+.mail_body_head{
+    display:flex;
+    border-bottom: 1px solid lightgray;
+}
+
+table{
+    width: 100%;
+    font-size: 14px;
+}
+table tr{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding:4px;
+}
+.mail_body_head div span{
+    font-size:20px;
+    padding:12px 0px 12px 20px;
+}
+
+.select_mail{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.select_mail span{
+    font-size: 18px;
+    padding:5px;
+    color:#444746;
+}
+
+.select_mail h1{
+    font-size: 16px;
+    font-weight: 400;
+    color:#444746;
+}
+
+
+.mail_sub_msg{
+    display: flex;
+    align-items:center;
+    width: 80%;
+   
+}
+
+.mail_sub{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.mail_msg{
+    font-size: 14px;
+    color:#444746;
+}
+
+.mail_time{
+    text-align: end;
+}
+
+
+
+
+
+.other-apps{
+    max-width: 50px;
+    right: 0;
+    position: fixed;
+    padding: 10px;
+    
+}
+.other-apps div{
+    padding: 20px 0px 20px 0px;
+}
